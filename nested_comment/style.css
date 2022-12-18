@@ -1,0 +1,45 @@
+.card {
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightcyan;
+    margin-top: 10px;
+}
+
+.text{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reply{
+    color: blue;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.coment-details{
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input{
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.all-comments :not(:first-child){
+    margin-left: 4rem;
+}
