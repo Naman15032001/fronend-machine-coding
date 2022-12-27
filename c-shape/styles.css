@@ -1,0 +1,27 @@
+.main_cont{
+    width:300px;
+    height:300px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.box{
+    height:80px;
+    width:80px;
+    align-content: space-around;
+    border: 1px solid black;
+}
+
+.change-color{
+    background-color: blue;
+}
+
